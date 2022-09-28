@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="360.0" prefWidth="492.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllerRoom.AvailableRoomFormController">
+   <children>
+      <Text fill="WHITE" layoutX="65.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0225 - Quad Room">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="65.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0228- Quad Room" wrappingWidth="185.0195311009884">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="65.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0362- Quad Room " wrappingWidth="431.0195311009884">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="61.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0564 - Thriple Room" wrappingWidth="345.0195311009884">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="65.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0565 - Triple Room" wrappingWidth="390.0195311009884">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="65.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0566 - Quad Room" wrappingWidth="390.0195311009884">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="65.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0767 - Double Room" wrappingWidth="390.0195311009884">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="65.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0468 - Double Room" wrappingWidth="390.0195311009884">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="65.0" layoutY="305.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0596 - Thriple Room" wrappingWidth="390.0195311009884">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="65.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0463 - Double Room" wrappingWidth="390.0195311009884">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="65.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0153 - Quad Room" wrappingWidth="390.0195311009884">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+   </children>
+</AnchorPane>

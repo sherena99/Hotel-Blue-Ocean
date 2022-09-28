@@ -1,0 +1,24 @@
+.background{
+    -fx-background-image: url("../assets/B-1.jpeg");
+}
+.Room{
+    -fx-background-image: url("../assets/1.jpeg");
+}
+.package{
+    -fx-background-image: url("../assets/P-5.jpeg");
+
+}
+.meal{
+    -fx-background-image: url("../assets/M-1.jpeg");
+
+}
+.logIn{
+    -fx-background-image: url("../assets/L-2.jpeg");
+}
+.Home{
+    -fx-background-image: url("../assets/H-1.jpeg");
+
+}
+
+
+

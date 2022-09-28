@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="reservationFormContext" prefHeight="912.0" prefWidth="1253.0" style="-fx-background-color: White;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ReservationFormController">
+   <children>
+      <JFXButton buttonType="RAISED" layoutX="199.0" layoutY="34.0" onAction="#previousPage" prefHeight="46.0" prefWidth="110.0" style="-fx-background-color: black;" text="&lt;&lt;&lt;&lt;" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="999.0" layoutY="24.0" onAction="#addOrEdit" prefHeight="46.0" prefWidth="110.0" style="-fx-background-color: black;" text="Add/Edit" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXTextField fx:id="txtName" labelFloat="true" layoutX="370.0" layoutY="191.0" prefHeight="31.0" prefWidth="424.0" promptText="Enter Customer Name..." />
+      <JFXTextField fx:id="txtNicNumber" labelFloat="true" layoutX="1045.0" layoutY="191.0" prefHeight="31.0" prefWidth="202.0" promptText="Enter NIC Number..." />
+      <JFXTextField fx:id="txtEmail" labelFloat="true" layoutX="66.0" layoutY="243.0" prefHeight="31.0" prefWidth="424.0" promptText="Enter Email..." />
+      <JFXTextField fx:id="txtMobileNumber" labelFloat="true" layoutX="975.0" layoutY="243.0" prefHeight="31.0" prefWidth="202.0" promptText="Enter Mobile Number..." />
+      <JFXTextField fx:id="txtAddress" labelFloat="true" layoutX="519.0" layoutY="243.0" prefHeight="31.0" prefWidth="424.0" promptText="Enter Address..." />
+      <JFXTextField fx:id="txtId" labelFloat="true" layoutX="66.0" layoutY="191.0" prefHeight="31.0" prefWidth="272.0" promptText="Customer ID..." />
+      <JFXTextField fx:id="txtAge" labelFloat="true" layoutX="815.0" layoutY="191.0" prefHeight="31.0" prefWidth="202.0" promptText="Enter Age..." />
+      <Label layoutX="496.0" layoutY="93.0" prefHeight="58.0" prefWidth="300.0" text="Reservation Form">
+         <font>
+            <Font name="System Bold" size="35.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtDate" labelFloat="true" layoutX="57.0" layoutY="363.0" prefHeight="31.0" prefWidth="202.0" promptText="Date.." />
+      <JFXTextField fx:id="txtTime" labelFloat="true" layoutX="300.0" layoutY="363.0" prefHeight="31.0" prefWidth="202.0" promptText="Time..." />
+      <JFXTextField fx:id="txtDuration" labelFloat="true" layoutX="545.0" layoutY="363.0" prefHeight="31.0" prefWidth="202.0" promptText="Diuration..." />
+      <JFXTextField fx:id="txtSelectedPackage" labelFloat="true" layoutX="794.0" layoutY="363.0" prefHeight="31.0" prefWidth="202.0" promptText="Selected Package..." />
+      <JFXTextField fx:id="txtSelectedRoom" labelFloat="true" layoutX="1045.0" layoutY="363.0" prefHeight="31.0" prefWidth="202.0" promptText="Selected Room..." />
+      <JFXTextField fx:id="txtSelectedMeals" labelFloat="true" layoutX="293.0" layoutY="413.0" prefHeight="31.0" prefWidth="252.0" promptText="Selected Meals Plan..." />
+      <JFXButton buttonType="RAISED" layoutX="933.0" layoutY="508.0" onAction="#PrintForm" prefHeight="46.0" prefWidth="110.0" style="-fx-background-color: orange;" text="Print" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="1056.0" layoutY="508.0" onAction="#EmailForm" prefHeight="46.0" prefWidth="110.0" style="-fx-background-color: Green;" text="Email" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="807.0" layoutY="508.0" onAction="#SaveUpdate" prefHeight="46.0" prefWidth="110.0" style="-fx-background-color: #182ef4;" text="Save" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <Label layoutX="68.0" layoutY="139.0" prefHeight="30.0" prefWidth="180.0" text="Customer Details:">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="68.0" layoutY="314.0" prefHeight="30.0" prefWidth="180.0" text="Hotel Details:">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtCost" labelFloat="true" layoutX="607.0" layoutY="413.0" prefHeight="31.0" prefWidth="326.0" promptText="Total Cost.." />
+      <Label layoutX="426.0" layoutY="14.0" prefHeight="66.0" prefWidth="459.0" text="Hotel Blue Ocean">
+         <font>
+            <Font name="Arial" size="55.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="68.0" layoutY="34.0" onAction="#backToHome" prefHeight="46.0" prefWidth="110.0" style="-fx-background-color: #182ef4;" text="Home" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <Text fill="#9e9898" layoutX="464.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EXPERIENCE THE EXCELLENCE OF HOSPITALITY" wrappingWidth="363.6708984375">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fill="#9e9898" layoutX="522.0" layoutY="488.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thank you for trusting us.. " wrappingWidth="208.6708984375">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <TableView fx:id="tblCustomers" layoutX="8.0" layoutY="689.0" prefHeight="213.0" prefWidth="1238.0">
+         <columns>
+            <TableColumn fx:id="colID" prefWidth="75.0" text="ID" />
+            <TableColumn fx:id="colName" prefWidth="145.0" text="Name" />
+            <TableColumn fx:id="colAge" prefWidth="61.0" text="Age" />
+            <TableColumn fx:id="colEmail" prefWidth="67.0" text="Email" />
+            <TableColumn fx:id="colNic" prefWidth="57.0" text="NIC" />
+            <TableColumn fx:id="colAddress" prefWidth="123.0" text="Address" />
+            <TableColumn fx:id="colMNum" prefWidth="65.0" text="MNum" />
+            <TableColumn fx:id="colDate" prefWidth="77.0" text="Date" />
+            <TableColumn fx:id="colTime" prefWidth="71.0" text="Time" />
+            <TableColumn fx:id="colDuration" prefWidth="72.0" text="Duration" />
+            <TableColumn fx:id="colPackage" prefWidth="86.0" text="Package" />
+            <TableColumn fx:id="colRoom" prefWidth="69.0" text="Room" />
+            <TableColumn fx:id="colMeal" prefWidth="92.0" text="Meal" />
+            <TableColumn fx:id="colCost" prefWidth="83.0" text="Cost" />
+            <TableColumn fx:id="colDelete" prefWidth="113.0" text="Delete" />
+         </columns>
+      </TableView>
+      <Text layoutX="176.0" layoutY="666.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search :" wrappingWidth="97.6708984375">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtSearch" layoutX="259.0" layoutY="644.0" prefHeight="31.0" prefWidth="727.0" />
+      <Label layoutX="496.0" layoutY="563.0" prefHeight="58.0" prefWidth="300.0" text="Search Customers">
+         <font>
+            <Font name="System Bold" size="35.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

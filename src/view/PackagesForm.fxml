@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="packageFormContext" prefHeight="850.0" prefWidth="1200.0" styleClass="package" stylesheets="@../styles/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.packagesFormController">
+   <children>
+      <JFXButton buttonType="RAISED" layoutX="71.0" layoutY="205.0" onAction="#openPackageDetails" prefHeight="58.0" prefWidth="218.0" style="-fx-background-color: #7ed6df;" text="Full Board">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="345.0" layoutY="205.0" onAction="#halfBoardContext" prefHeight="58.0" prefWidth="218.0" style="-fx-background-color: #7ed6df;" text="Half Board">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="630.0" layoutY="205.0" onAction="#HoneymoonPackageContext" prefHeight="58.0" prefWidth="226.0" style="-fx-background-color: #7ed6df;" text="Honeymoon Package">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="911.0" layoutY="205.0" onAction="#familyPackageContext" prefHeight="58.0" prefWidth="226.0" style="-fx-background-color: #7ed6df;" text="Family Package">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <Label layoutX="506.0" layoutY="68.0" prefHeight="58.0" prefWidth="188.0" text="Packages" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="180.0" layoutY="80.0" onAction="#previousPage" prefHeight="46.0" prefWidth="110.0" style="-fx-background-color: black;" text="&lt;&lt;&lt;&lt;" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="856.0" layoutY="74.0" onAction="#addOrEdit" prefHeight="46.0" prefWidth="110.0" style="-fx-background-color: black;" text="Add/Edit" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <Label layoutX="244.0" layoutY="671.0" prefHeight="58.0" prefWidth="202.0" text="Select Package:" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextField layoutX="412.0" layoutY="685.0" prefHeight="31.0" prefWidth="545.0" />
+      <JFXButton buttonType="RAISED" layoutX="877.0" layoutY="744.0" onAction="#SaveUpdate" prefHeight="46.0" prefWidth="110.0" style="-fx-background-color: #182ef4;" text="Save" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="999.0" layoutY="744.0" onAction="#nextPage" prefHeight="46.0" prefWidth="110.0" style="-fx-background-color: black;" text="&gt;&gt;&gt;&gt;" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <AnchorPane fx:id="fullBoardPackageContext" layoutX="298.0" layoutY="297.0" prefHeight="374.0" prefWidth="665.0" />
+      
+   </children>
+</AnchorPane>

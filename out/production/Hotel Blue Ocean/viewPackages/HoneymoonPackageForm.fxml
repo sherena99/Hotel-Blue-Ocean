@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="honeymoonPackageContext" prefHeight="374.0" prefWidth="665.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllerPackage.HoneymoonPackageFormController">
+   <children>
+      <Text fill="WHITE" layoutX="31.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Food Serving:">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="170.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="breakfast, Lunch, Evening Tea and Cake, Dinner">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="29.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Room Details:" wrappingWidth="124.0234400331974">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="170.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Triple Room">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="34.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Meal Details:">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="173.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="173.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="173.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="35.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Check in time:" wrappingWidth="133.809576921165">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="174.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8.00 a.m.">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="319.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Check out time:" wrappingWidth="141.80957961082458">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="478.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9.00a.m">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="35.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="person Count:">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="171.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="181.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price :">
+         <font>
+            <Font size="25.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="320.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10000/-">
+         <font>
+            <Font size="25.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="35.0" layoutY="212.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Diuration:">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="173.0" layoutY="212.0" strokeType="OUTSIDE" strokeWidth="0.0" text="For 1 day.">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <JFXButton buttonType="RAISED" layoutX="523.0" layoutY="300.0" prefHeight="50.0" prefWidth="113.0" style="-fx-background-color: #2c3e50;" text="Book Now" textFill="#f5f4f4">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <Text fill="WHITE" layoutX="172.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Local Meal, Chinees Meals, French meals">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="174.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="[Customer can select Meal Plans]">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="186.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" text="All The Decoretions Included.">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Text fill="WHITE" layoutX="544.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="[next Day]" wrappingWidth="86.30859151482582">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+   </children>
+</AnchorPane>

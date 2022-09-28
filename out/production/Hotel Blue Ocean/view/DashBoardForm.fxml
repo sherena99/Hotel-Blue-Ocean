@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="dashBoardContext" prefHeight="691.0" prefWidth="771.0" style="-fx-background-color: F2FDFF;" styleClass="logIn" stylesheets="@../styles/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashBoardFormController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#06044a" height="151.0" layoutX="57.0" layoutY="18.0" stroke="BLACK" strokeType="INSIDE" width="48.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#182ef4" height="108.0" layoutX="96.0" layoutY="61.0" stroke="BLACK" strokeType="INSIDE" width="48.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="12.0" layoutX="27.0" layoutY="169.0" stroke="BLACK" strokeType="INSIDE" width="157.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="20.0" layoutX="70.0" layoutY="68.0" stroke="WHITE" strokeType="INSIDE" width="14.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="20.0" layoutX="70.0" layoutY="105.0" stroke="WHITE" strokeType="INSIDE" width="14.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="20.0" layoutX="70.0" layoutY="139.0" stroke="WHITE" strokeType="INSIDE" width="14.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="12.0" layoutX="113.0" layoutY="78.0" stroke="WHITE" strokeType="INSIDE" width="14.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="12.0" layoutX="113.0" layoutY="98.0" stroke="WHITE" strokeType="INSIDE" width="14.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="12.0" layoutX="113.0" layoutY="119.0" stroke="WHITE" strokeType="INSIDE" width="14.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="12.0" layoutX="113.0" layoutY="143.0" stroke="WHITE" strokeType="INSIDE" width="14.0" />
+      <Text layoutX="52.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="27.0" layoutY="201.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hotel Blue Ocean" wrappingWidth="156.99998474121094">
+         <font>
+            <Font name="Arial" size="19.0" />
+         </font>
+      </Text>
+      <Text layoutX="184.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hotel Blue Ocean" wrappingWidth="543.0000037252903">
+         <font>
+            <Font name="Arial" size="65.0" />
+         </font>
+      </Text>
+      <Text layoutX="294.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin and Reseption" wrappingWidth="304.12255859375">
+         <font>
+            <Font name="System Bold Italic" size="29.0" />
+         </font>
+      </Text>
+      <Text layoutX="127.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User ID:" wrappingWidth="185.6708984375">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="127.0" layoutY="393.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" wrappingWidth="185.6708984375">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <JFXButton buttonType="RAISED" layoutX="579.0" layoutY="547.0" onAction="#openHomePage" prefHeight="60.0" prefWidth="110.0" style="-fx-background-color: #182ef4;" text="LogIn" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <TextField layoutX="127.0" layoutY="305.0" prefHeight="39.0" prefWidth="543.0" promptText="Enter User ID Here..." />
+      <TextField layoutX="127.0" layoutY="412.0" prefHeight="39.0" prefWidth="543.0" promptText="Enter Password Here..." />
+      <Text layoutX="129.0" layoutY="504.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <CheckBox layoutX="127.0" layoutY="484.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="176.0" text="Remember me">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </CheckBox>
+      <Text layoutX="372.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LogIn Form" wrappingWidth="120.00002187490463">
+         <font>
+            <Font name="System Italic" size="23.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="265.0" layoutY="126.0" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="EXPERIENCE THE EXCELLENCE OF HOSPITALITY" wrappingWidth="363.6708984375">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <effect>
+            <DropShadow height="76.97" radius="36.6225" width="71.52" />
+         </effect>
+      </Text>
+   </children>
+</AnchorPane>
